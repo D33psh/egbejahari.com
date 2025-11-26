@@ -170,19 +170,23 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             <div>
               <div className="flex items-center gap-2 sm:gap-3 mb-4">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-ambar-600 to-ambar-800 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Image
+                    src="/logo-ile.jpeg"
+                    alt="Ile Ase Egbe Jahari"
+                    width={64}
+                    height={64}
+                    className="rounded-full"
+                  />
                 </div>
                 <div>
                   <h3 className="text-base sm:text-lg font-bold">
-                    Egbé Jàhári
+                    Ilê Àṣẹ Egbé Jàhári
                   </h3>
-                  <p className="text-xs text-stone-400">Ilê Àṣẹ</p>
                 </div>
               </div>
               <p className="text-stone-400 text-xs sm:text-sm leading-relaxed">
-                Um espaço sagrado dedicado à ancestralidade, espiritualidade e
-                ao fortalecimento comunitário.
+                Centro cultural e Religioso
               </p>
             </div>
 
