@@ -27,15 +27,16 @@ export default function Home() {
     { label: "Sobre", href: "#sobre" },
     { label: "Projetos", href: "#projetos" },
     { label: "Localização", href: "#localizacao" },
-    { label: "Contato", href: "#contato" },
   ];
 
   const handleNavClick = (href) => {
     setMobileMenuOpen(false);
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
   };
 
   return (

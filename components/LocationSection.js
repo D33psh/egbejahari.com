@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Navigation, Star } from "lucide-react";
 
 export default function LocationSection() {
-  const address = "São Paulo, SP, Brasil";
+  const address = "R. Maritaca, 197 - Vila Popular, São Paulo - SP, 08461-180";
   const googleMapsUrl =
     "https://www.google.com/maps/search/?api=1&query=Egbe+Jahari+São+Paulo";
   const googleReviewsUrl = "https://www.google.com/search?q=Egbe+Jahari";
