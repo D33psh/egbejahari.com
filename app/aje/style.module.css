@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.container {
+  width: 100vw;
+  height: auto;
+}
+
+.offer_one {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #fff;
+}
+
+.offer_two {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #fff;
+}
+
+.offer_three {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  color: #fff;
+}
+
+.button {
+  width: fit-content;
+  height: fit-content;
+
+  padding: 0.8rem 1.5rem !important;
+
+  display: flex;
+
+  align-items: center;
+
+  border-radius: 2rem !important;
+
+  background: #8100fa !important;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 0, 250, 1) 0%,
+    rgba(0, 255, 255, 1) 100%
+  ) !important;
+
+  border: none !important;
+}
+
+.buttonGroup {
+  display: flex;
+
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.link {
+  color: #fff;
+  outline: none;
+}
+
+.secoundLink {
+  color: #000;
+  outline: none;
+}
+
+.textBox {
+  width: 80vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.secoundTextBox {
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.image_home {
+  width: 10;
+  height: 10;
+}
+
+.title {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: #fff;
+}
+
+.secoundTitle {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.subtitle {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.button {
+  background: none;
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.3rem;
+}
+
+.divider {
+  width: 70vw;
+  border: 1px solid #fff;
+}
+
+.depoiment {
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.8rem;
+}
+
+.depoimentName {
+  color: #b6ebc3;
+}
+
+.roudedAlagbara {
+  width: 50vw;
+  height: auto;
+
+  border-radius: 100%;
+}
+
+.hearthAlagbara {
+  width: 80vw;
+  height: auto;
+
+  border-radius: 5%;
+}
+
+.luzAlagbara {
+  width: 90vw;
+  height: auto;
+
+  border-radius: 48% 48% 0 0;
+}
+
+.contact {
+  color: #f8f0de;
+}
+
+.socialmidia {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 100%;
+  color: #2f4e41;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  width: 100vw;
+  min-height: 716px;
+  height: auto;
+
+  background-color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.two {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.three {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.four {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.five {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.six {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.seven {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}

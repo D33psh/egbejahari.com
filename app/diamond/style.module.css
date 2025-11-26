@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+.link {
+  color: #fff;
+  outline: none;
+}
+
+.textBox {
+  width: 80vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+.whiteTextBox {
+  padding: 3rem 1.5rem 1rem 1.5rem;
+
+  background-color: #fff;
+
+  border-radius: 5%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.boxTitle {
+  padding: 0.3rem;
+
+  display: flex;
+
+  justify-content: center;
+
+  border: 1px solid #1800ad;
+  border-radius: 5px;
+}
+
+.boxContent {
+  padding: 1rem;
+
+  background-color: #1800ad;
+
+  border-radius: 5px;
+}
+
+.secondTextBox {
+  width: 80vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-size: 46px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.secoundTitle {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+.therdyTitle {
+  font-family: "Special Elite", system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.mainsubtitle {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.subtitle {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+.subtitleBold {
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-style: normal;
+  color: #000;
+}
+.secondSubtitle {
+  font-family: "Special Elite", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff0000;
+}
+.blackSecondSubtitle {
+  padding: 1rem;
+
+  font-family: "Special Elite", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+
+  border: 1px solid #1800ad;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 1rem;
+  background: none;
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.divider {
+  width: 70vw;
+  border: 1px solid #fff;
+}
+
+.depoiment {
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.8rem;
+}
+
+.depoimentName {
+  color: #b6ebc3;
+}
+
+.roudedAlagbara {
+  width: 50vw;
+  height: auto;
+
+  border-radius: 100%;
+}
+
+.hearthAlagbara {
+  width: 90vw;
+  height: auto;
+
+  border-radius: 0%;
+}
+
+.secondHearthAlagbara {
+  position: absolute;
+  right: 0;
+  top: 268rem;
+
+  width: 70vw;
+  height: auto;
+
+  border-radius: 0%;
+}
+
+.relativeImage {
+  position: absolute;
+
+  width: 50vw;
+  height: auto;
+
+  left: 0;
+  top: 248rem;
+
+  border-radius: 0%;
+}
+
+.luzAlagbara {
+  width: 90vw;
+  height: auto;
+
+  border-radius: 48% 48% 0 0;
+}
+
+.buyNow {
+  padding: 3rem;
+
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  gap: 1rem;
+
+  background-color: #1800ad;
+}
+
+.buyNowPrice {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  font-size: 2rem;
+}
+.buyNowPriceSmall {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  font-size: 1rem;
+}
+
+.socialmidia {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 100%;
+  color: #2f4e41;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  width: 100vw;
+  min-height: 716px;
+  height: auto;
+
+  background-color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.two {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #1800ad;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.three {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.four {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #fff;
+
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3rem;
+}
+
+.five {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #a6a6a6;
+
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.six {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #1b1812;
+
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.seven {
+  padding: 3rem 0;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: #000;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
