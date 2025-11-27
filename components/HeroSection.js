@@ -18,7 +18,7 @@ export default function HeroSection() {
             transition={{ delay: 0.3, type: "spring" }}
             className="inline-block mb-4 sm:mb-6"
           >
-            <div className="w-30 h-30 rounded-full flex items-center justify-center mx-auto shadow-2xl">
+            <div className="w-60 h-60 rounded-full flex items-center justify-center mx-auto shadow-2xl">
               <Image
                 src="/logo-ile.jpeg"
                 alt="Ile Ase Egbe Jahari"
