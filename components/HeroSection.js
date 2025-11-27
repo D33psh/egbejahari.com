@@ -77,7 +77,7 @@ export default function HeroSection() {
                   .scrollIntoView({ behavior: "smooth" })
               }
             >
-              Mais Sobre a Gente
+              Mais Sobre o Ilê
               <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
             </button>
             <button

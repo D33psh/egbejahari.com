@@ -58,7 +58,7 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="flex items-center gap-2 sm:gap-3"
             >
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-ambar-600 to-ambar-800 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-yellow-600 to-yellow-800 rounded-full flex items-center justify-center flex-shrink-0">
                 <Image
                   src="/logo-ile.jpeg"
                   alt="Ile Ase Egbe Jahari"
@@ -99,7 +99,7 @@ export default function Home() {
               className="flex items-center gap-2"
             >
               <button
-                className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white shadow-lg text-xs sm:text-sm py-2 px-3 sm:px-4 hidden sm:flex sm:items-center sm:justify-center"
+                className="bg-gradient-to-r from-green-600 to-green-700 hover:from-yellow-700 hover:to-yellow-800 text-white shadow-lg text-xs sm:text-sm py-2 px-3 sm:px-4 hidden sm:flex sm:items-center sm:justify-center"
                 onClick={() =>
                   window.open("https://wa.me/5511959659758", "_blank")
                 }
@@ -145,7 +145,7 @@ export default function Home() {
                     </a>
                   ))}
                   <button
-                    className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white shadow-lg w-full mt-2 flex items-center justify-center py-2"
+                    className="bg-gradient-to-r from-yellow-600 to-yellow-700 hover:from-yellow-700 hover:to-yellow-800 text-white shadow-lg w-full mt-2 flex items-center justify-center py-2"
                     onClick={() => {
                       setMobileMenuOpen(false);
                       window.open("https://wa.me/5511959659758", "_blank");
@@ -171,7 +171,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             <div>
               <div className="flex items-center gap-2 sm:gap-3 mb-4">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-ambar-600 to-ambar-800 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-yellow-600 to-yellow-800 rounded-full flex items-center justify-center flex-shrink-0">
                   <Image
                     src="/logo-ile.jpeg"
                     alt="Ile Ase Egbe Jahari"

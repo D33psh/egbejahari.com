@@ -14,8 +14,8 @@ export default function ProjectsSection() {
   const projects = [
     {
       icon: Gem,
-      title: "Grupo Diamante",
-      subtitle: "Comunidade Exclusiva",
+      title: "Grupo Diamond",
+      subtitle: "Área de Membros Diamond",
       description:
         "O Grupo Diamond é uma comunidade exclusiva criada por Bàbá Jàhári ti Ològúnèdé, onde o conhecimento, a tradição e a força do axé se encontram para transformar vidas.",
       color: "from-purple-600 to-violet-700",
@@ -93,8 +93,8 @@ export default function ProjectsSection() {
     },
     {
       icon: Heart,
-      title: "Centro Espiritual",
-      subtitle: "Caboclo Flecha Dourada",
+      title: "Umbanda",
+      subtitle: "Centro Espiritual Caboclo Flecha Dourada",
       description:
         "Um espaço sagrado onde o axé dos Caboclos, Pretos Velhos, Pombogiras, Exus e demais linhas de trabalho se manifesta para orientar, curar e abrir caminhos.",
       color: "from-green-600 to-emerald-700",
