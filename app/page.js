@@ -29,14 +29,27 @@ export default function Home() {
     { label: "Localização", href: "#localizacao" },
   ];
 
+  const navItemsMobile = [
+    { label: "Sobre", href: "#sobre" },
+    { label: "Projetos", href: "#projetos" },
+    { label: "Localização", href: "#localizacao" },
+    { label: "Terreiro 197", href: "/terreiro197" },
+    { label: "Alagbará", href: "/alagbara" },
+    { label: "Grupo Diamond", href: "/diamond" },
+    { label: "Umbanda", href: "/umbanda" },
+    { label: "Wurá Shop", href: "http://instagram.com/wurashopoficial" },
+  ];
+
   const handleNavClick = (href) => {
     setMobileMenuOpen(false);
-    setTimeout(() => {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100);
+
+    window.open(href, "_self");
+    // setTimeout(() => {
+    //   const element = document.querySelector(href);
+    //   if (element) {
+    //     element.scrollIntoView({ behavior: "smooth" });
+    //   }
+    // }, 100);
   };
 
   return (
@@ -99,7 +112,7 @@ export default function Home() {
               className="flex items-center gap-2"
             >
               <button
-                className="bg-gradient-to-r from-green-600 to-green-700 hover:from-yellow-700 hover:to-yellow-800 text-white shadow-lg text-xs sm:text-sm py-2 px-3 sm:px-4 hidden sm:flex sm:items-center sm:justify-center"
+                className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg text-xs sm:text-sm py-2 px-3 sm:px-4 hidden sm:flex sm:items-center sm:justify-center"
                 onClick={() =>
                   window.open("https://wa.me/5511959659758", "_blank")
                 }
@@ -131,7 +144,7 @@ export default function Home() {
                 className="md:hidden mt-4 pb-4 bg-white rounded-xl shadow-lg border border-stone-200"
               >
                 <div className="flex flex-col gap-2 p-2">
-                  {navItems.map((item) => (
+                  {navItemsMobile.map((item) => (
                     <a
                       key={item.href}
                       href={item.href}
@@ -145,7 +158,7 @@ export default function Home() {
                     </a>
                   ))}
                   <button
-                    className="bg-gradient-to-r from-yellow-600 to-yellow-700 hover:from-yellow-700 hover:to-yellow-800 text-white shadow-lg w-full mt-2 flex items-center justify-center py-2"
+                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg w-full mt-2 flex items-center justify-center py-2"
                     onClick={() => {
                       setMobileMenuOpen(false);
                       window.open("https://wa.me/5511959659758", "_blank");
