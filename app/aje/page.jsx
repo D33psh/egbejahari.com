@@ -23,48 +23,9 @@ export default function Alagbara() {
             prosperidade está em suas mãos, e neste ebook você irá aprender como
             usá-la da melhor forma possível.
           </h2>
+        </div>
+      </section>
 
-          <Image
-            src="/aje-two.jpg"
-            alt="Ajê"
-            width={565 / 1.8}
-            height={800 / 1.8}
-          />
-        </div>
-      </section>
-      <section className={style.three}>
-        <div className={style.textBox}>
-          <Image
-            src="/aje-three.jpg"
-            alt="Ajê"
-            width={565 / 1.8}
-            height={800 / 1.8}
-          />
-
-          <Image
-            src="/aje-four.jpg"
-            alt="Ajê"
-            width={565 / 1.8}
-            height={800 / 1.8}
-          />
-        </div>
-      </section>
-      <section className={style.four}>
-        <div className={style.textBox}>
-          <Image
-            src="/aje-five.jpg"
-            alt="Ajê"
-            width={565 / 1.8}
-            height={800 / 1.8}
-          />
-          <Image
-            src="/aje-six.jpg"
-            alt="Ajê"
-            width={565 / 1.8}
-            height={800 / 1.8}
-          />
-        </div>
-      </section>
       <section className={style.five}>
         <div className={style.textBox}>
           <h2 className={style.title}>Conteúdo:</h2>
@@ -82,8 +43,6 @@ export default function Alagbara() {
             🐚 O caminho para a Riqueza. <br />
             🐚 Procedimentos do Culto. <br />
             🐚 Como Cultuar. <br />
-          </span>
-          <span className={style.secoundTitle}>
             🐚 Formas de Culto. <br />
             🐚 Ajê e Orí. <br />
             🐚 Assentamento de Ajê. <br />
