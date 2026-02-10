@@ -35,6 +35,7 @@ export default function Home() {
     { label: "Localização", href: "#localizacao" },
     { label: "Terreiro 197", href: "/terreiro197" },
     { label: "Alagbará", href: "/alagbara" },
+    { label: "Áseagbá", href: "/aseagba" },
     { label: "Grupo Diamond", href: "/diamond" },
     { label: "Umbanda", href: "/umbanda" },
     { label: "Wurá Shop", href: "http://instagram.com/wurashopoficial" },
