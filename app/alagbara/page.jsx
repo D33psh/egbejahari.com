@@ -1,13 +1,16 @@
 import Image from "next/image"
 import style from "./style.module.css"
-import Link from "next/link"
+import Link from "next/link";
+import Navbar from "../../components/Navbar";
 
 import { IoLogoInstagram } from "react-icons/io";
 
 export default function Alagbara() {
   return (
-    <div className={style.container}>
-      <section className={style.one}>
+    <>
+      <Navbar pageTitle="Àlàgbára" />
+      <div className={`${style.container} pt-[72px]`}>
+        <section className={style.one}>
         <h1 className={style.title}>O Sagrado Masculino</h1>
 
         <span className={style.subtitle}>Grupo do Homem Alagbara</span>
@@ -155,5 +158,6 @@ export default function Alagbara() {
         <Image src="/BabaJahari_2.png" alt="Alagbara" width={736} height={736} className={style.hearthAlagbara}/>
       </section>
     </div>
+    </>
   )
 }

@@ -1,14 +1,17 @@
 import Image from "next/image";
 import style from "./style.module.css";
 import Link from "next/link";
+import Navbar from "../../components/Navbar";
 
 import { TiSocialFacebook } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
 
 export default function Alagbara() {
   return (
-    <div className={style.container}>
-      <section className={style.one}>
+    <>
+      <Navbar pageTitle="Terreiro 197" />
+      <div className={`${style.container} pt-[72px]`}>
+        <section className={style.one}>
         <h1 className={style.title}>Terreiro 197</h1>
 
         <span className={style.mainsubtitle}>Culto aos Guardioes</span>
@@ -154,5 +157,6 @@ export default function Alagbara() {
         />
       </section>
     </div>
+    </>
   );
 }

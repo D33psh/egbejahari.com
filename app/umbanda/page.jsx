@@ -1,6 +1,7 @@
 import Image from "next/image";
 import style from "./style.module.css";
 import Link from "next/link";
+import Navbar from "../../components/Navbar";
 
 import { TiSocialFacebook } from "react-icons/ti";
 import { IoLogoInstagram } from "react-icons/io";
@@ -8,7 +9,8 @@ import { IoLogoInstagram } from "react-icons/io";
 export default function Alagbara() {
   return (
     <>
-      <section className={style.one}>
+      <Navbar pageTitle="Umbanda" />
+      <section className={`${style.one} pt-[72px]`}>
         <span className={style.mainsubtitle}>Ilé Ase Egbe Jàhári</span>
 
         <h1 className={style.title}>

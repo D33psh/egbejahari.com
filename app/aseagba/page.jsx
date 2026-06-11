@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Instagram, Circle } from "lucide-react";
+import Navbar from "../../components/Navbar";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 60 },
@@ -61,6 +62,7 @@ export default function Aseagba() {
 
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white overflow-x-hidden relative">
+      <Navbar pageTitle="Àṣẹàgbà" />
       {/* Animated Background Orbs */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <GeometricOrb delay={0} duration={25} size={600} />

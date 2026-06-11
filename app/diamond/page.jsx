@@ -1,11 +1,13 @@
 import Image from "next/image";
 import style from "./style.module.css";
 import Link from "next/link";
+import Navbar from "../../components/Navbar";
 
 export default function Alagbara() {
   return (
     <>
-      <section className={style.one}>
+      <Navbar pageTitle="Grupo Diamond" />
+      <section className={`${style.one} pt-[72px]`}>
         <Image
           src="/GrupoDiamond.jpg"
           alt="Grupo Diamante"
