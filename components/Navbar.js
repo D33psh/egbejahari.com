@@ -28,7 +28,7 @@ export default function Navbar({ pageTitle }) {
     { label: "Áseagbá", href: "/aseagba" },
     { label: "Grupo Diamond", href: "/diamond" },
     { label: "Umbanda", href: "/umbanda" },
-    { label: "Raiz da Visão", href: "/raiz-da-visao" },
+    { label: "Raiz da Visão", href: "/raizdavisao" },
     { label: "Wurá Shop", href: "http://instagram.com/wurashopoficial" },
   ];
 
@@ -38,13 +38,13 @@ export default function Navbar({ pageTitle }) {
     { label: "Áseagbá", href: "/aseagba" },
     { label: "Grupo Diamond", href: "/diamond" },
     { label: "Umbanda", href: "/umbanda" },
-    { label: "Raiz da Visão", href: "/raiz-da-visao" },
+    { label: "Raiz da Visão", href: "/raizdavisao" },
   ];
 
   const handleNavClick = (href) => {
     setMobileMenuOpen(false);
     setIsProjectsOpen(false);
-    if(href.startsWith("http")) {
+    if (href.startsWith("http")) {
       window.open(href, "_blank");
     } else {
       window.open(href, "_self");
@@ -55,11 +55,10 @@ export default function Navbar({ pageTitle }) {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled
           ? "bg-white/95 backdrop-blur-lg shadow-lg"
           : "bg-white/90 backdrop-blur-md shadow-md"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
@@ -104,9 +103,9 @@ export default function Navbar({ pageTitle }) {
             >
               Sobre
             </a>
-            
+
             {/* Projetos Dropdown */}
-            <div 
+            <div
               className="relative group"
               onMouseEnter={() => setIsProjectsOpen(true)}
               onMouseLeave={() => setIsProjectsOpen(false)}
@@ -114,7 +113,7 @@ export default function Navbar({ pageTitle }) {
               <button className="flex items-center gap-1 text-stone-700 hover:text-amber-700 transition-colors font-medium text-sm lg:text-base py-2">
                 Projetos <ChevronDown className="w-4 h-4" />
               </button>
-              
+
               <AnimatePresence>
                 {isProjectsOpen && (
                   <motion.div

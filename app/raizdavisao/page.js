@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import HeroSection from "../../components/raiz-da-visao/HeroSection";
 import PillarsSection from "../../components/raiz-da-visao/PillarsSection";
 import MedicinesSection from "../../components/raiz-da-visao/MedicinesSection";
+import ResponsabilitySection from "../../components/raiz-da-visao/ResponsabilitySection";
 import CallToAction from "../../components/raiz-da-visao/CallToAction";
 import LocationSection from "../../components/LocationSection";
 
@@ -19,6 +20,7 @@ export default function RaizDaVisaoPage() {
         <HeroSection />
         <PillarsSection />
         <MedicinesSection />
+        <ResponsabilitySection />
         <CallToAction />
         <LocationSection />
       </main>

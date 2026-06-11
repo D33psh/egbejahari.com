@@ -42,11 +42,18 @@ export default function MedicinesSection() {
           <h2 className="text-sm font-semibold text-emerald-700/90 tracking-[0.2em] uppercase mb-4">Expansão da Consciência</h2>
           <h3 className="text-3xl md:text-5xl font-serif text-stone-100 mb-6">Medicinas da Floresta</h3>
           <p className="text-lg text-stone-400 max-w-2xl mx-auto font-light leading-relaxed">
-            A Raiz da Visão trabalha com medicinas sagradas que auxiliam no processo de limpeza, alinhamento e abertura espiritual.
+            A Medicina da Floresta é um instrumento sagrado de conexão com a natureza, com a ancestralidade e com a essência divina presente em cada ser. No Projeto Raiz da Visão, compreendemos que a verdadeira cura acontece quando corpo, mente, emoções e espírito caminham em harmonia.<br /><br />
+
+            Nossos rituais são realizados com respeito às tradições das medicinas ancestrais e têm como propósito proporcionar um espaço seguro de autoconhecimento, reflexão e reconexão. Através da força da floresta, somos convidados a olhar para dentro de nós mesmos, compreender nossos processos, reconhecer nossas sombras e fortalecer nossa luz.<br /><br />
+
+            Cada participante é chamado a viver sua própria experiência, respeitando seu tempo, sua história e seu caminho. Não buscamos respostas prontas, mas a oportunidade de desenvolver uma escuta mais profunda de si mesmo, da natureza e do sagrado.<br /><br />
+
+            Durante o ritual, o silêncio, os cantos, as rezas, os elementos naturais e a força da coletividade criam um campo propício para o aprendizado, a cura e a expansão da consciência. A medicina não faz o trabalho por nós; ela nos auxilia a enxergar com mais clareza aquilo que precisa ser transformado em nossa vida.<br /><br />
+
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {medicines.map((med, idx) => (
             <motion.div
               key={med.name}

@@ -15,7 +15,7 @@
    ```bash
    npm run dev
    ```
-2. Open a web browser and navigate to the Raiz da Visão page (e.g., `http://localhost:3000/raiz-da-visao` - exact route to be determined during implementation).
+2. Open a web browser and navigate to the Raiz da Visão page (e.g., `http://localhost:3000/raizdavisao` - exact route to be determined during implementation).
 
 ## Expected Outcomes
 - **SC-001 Validation**: The page should display the Raiz da Visão content:
