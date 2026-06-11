@@ -7,7 +7,7 @@ export default function MedicinesSection() {
     {
       name: "Rapé (Hapé)",
       description: "Medicina ancestral indígena utilizada para aterramento, limpeza energética e foco espiritual. Atua diretamente no campo mental e energético, trazendo clareza, presença e conexão com o agora.",
-      color: "border-amber-900/40 hover:border-amber-700/60"
+      color: "border-amber-900/40 hover:border-amber-700/60 "
     },
     {
       name: "Ayahuasca",
