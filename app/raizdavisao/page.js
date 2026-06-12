@@ -20,8 +20,8 @@ export default function RaizDaVisaoPage() {
         <HeroSection />
         <MedicinesSection />
         <ResponsabilitySection />
-        <PillarsSection />
         <CallToAction />
+        <PillarsSection />
         <LocationSection />
       </main>
       <Footer />
