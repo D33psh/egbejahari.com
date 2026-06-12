@@ -18,9 +18,9 @@ export default function RaizDaVisaoPage() {
       <Navbar pageTitle="Raiz da Visão" />
       <main className="flex-grow pt-[72px]">
         <HeroSection />
-        <PillarsSection />
         <MedicinesSection />
         <ResponsabilitySection />
+        <PillarsSection />
         <CallToAction />
         <LocationSection />
       </main>
