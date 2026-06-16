@@ -29,7 +29,7 @@ export default function Navbar({ pageTitle }) {
     { label: "Grupo Diamond", href: "/diamond" },
     { label: "Umbanda", href: "/umbanda" },
     { label: "Raiz da Visão", href: "/raizdavisao" },
-    { label: "Wurá Shop", href: "http://instagram.com/wurashopoficial" },
+    { label: "Wurá Shop", href: "https://wa.me/c/199879909486627" },
   ];
 
   const projects = [
@@ -56,8 +56,8 @@ export default function Navbar({ pageTitle }) {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled
-          ? "bg-white/95 backdrop-blur-lg shadow-lg"
-          : "bg-white/90 backdrop-blur-md shadow-md"
+        ? "bg-white/95 backdrop-blur-lg shadow-lg"
+        : "bg-white/90 backdrop-blur-md shadow-md"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
