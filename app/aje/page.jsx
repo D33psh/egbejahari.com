@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Phone } from "lucide"
+import { Phone } from "lucide-react"
 import { motion } from "framer-motion";
 import {
   BookOpen,
