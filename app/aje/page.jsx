@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { Phone } from "lucide"
 import { motion } from "framer-motion";
 import {
   BookOpen,
@@ -62,7 +63,7 @@ export default function Aje() {
         {/* ── HERO ── */}
         <section className="relative min-h-[90vh] flex flex-col lg:flex-row items-center justify-center overflow-hidden bg-stone-950 pt-10">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-900/40 via-stone-900 to-stone-950" />
-          
+
           <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 w-full grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial="hidden"
@@ -146,7 +147,7 @@ export default function Aje() {
         {/* ── CONTEÚDO ── */}
         <section id="conteudo" className="py-24 bg-white relative">
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-amber-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/3" />
-          
+
           <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
             <motion.div
               initial="hidden"
@@ -192,7 +193,7 @@ export default function Aje() {
         <section className="py-24 bg-stone-900 relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('/alagbara-background.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay" />
           <div className="absolute inset-0 bg-gradient-to-b from-stone-900 via-stone-900/90 to-stone-950" />
-          
+
           <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center">
             <motion.div
               initial="hidden"
