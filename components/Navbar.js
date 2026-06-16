@@ -165,7 +165,7 @@ export default function Navbar({ pageTitle }) {
             <button
               className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg text-xs sm:text-sm py-2 px-3 sm:px-4 hidden sm:flex sm:items-center sm:justify-center rounded-md transition-all"
               onClick={() =>
-                window.open("https://wa.me/5511959659758", "_blank")
+                window.open("https://wa.me/5511930329758", "_blank")
               }
             >
               <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
@@ -213,7 +213,7 @@ export default function Navbar({ pageTitle }) {
                   className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg w-full mt-2 flex items-center justify-center py-3 rounded-md"
                   onClick={() => {
                     setMobileMenuOpen(false);
-                    window.open("https://wa.me/5511959659758", "_blank");
+                    window.open("https://wa.me/5511930329758", "_blank");
                   }}
                 >
                   <Phone className="w-4 h-4 mr-2" />

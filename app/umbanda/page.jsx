@@ -139,7 +139,7 @@ export default function Alagbara() {
           <span className={style.contact}>
             contato@egbejahari.com
             <br />
-            (11)95965-9758
+            (11)93032-9758
           </span>
 
           <h2 className={style.therdyTitle}>Me acompanhe nas redes</h2>

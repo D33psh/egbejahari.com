@@ -83,7 +83,7 @@ export default function HeroSection() {
             <button
               className="border-2 border-amber-700 text-amber-700 hover:bg-amber-50 px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg w-full sm:w-auto"
               onClick={() =>
-                window.open("https://wa.me/5511959659758", "_blank")
+                window.open("https://wa.me/5511930329758", "_blank")
               }
             >
               Entre em Contato

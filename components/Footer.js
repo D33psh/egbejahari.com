@@ -36,7 +36,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-stone-400">
               <p>contato@egbejahari.com</p>
-              <p>(11) 95965-9758</p>
+              <p>(11) 93032-9758</p>
               <p>São Paulo, Brasil</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
-                href="https://wa.me/5511959659758"
+                href="https://wa.me/5511930329758"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-stone-800 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors"

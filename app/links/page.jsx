@@ -17,7 +17,7 @@ export default function Links() {
         <Link href="https://pay.kiwify.com.br/jfMG2xa" className={style.link}>GRUPO VIP</Link>
       </div>
       <div className={style.box}>
-        <Link href="https://wa.me/c/5511959659758" className={style.link}>CATALOGO</Link>
+        <Link href="https://wa.me/c/5511930329758" className={style.link}>CATALOGO</Link>
       </div>
 
       <Image src="/IleAse_transparent.png" alt='Ile Ase' width={120} height={200} className={style.image} />

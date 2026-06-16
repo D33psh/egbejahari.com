@@ -86,7 +86,7 @@ export default function Alagbara() {
           <h2 className={style.title}>Fale conosco</h2>
 
           <span className={style.contact}>
-            (11)95965-9758
+            (11)93032-9758
             <br />
             Rua Maritaca, 197, Cidade Popular
             <br />

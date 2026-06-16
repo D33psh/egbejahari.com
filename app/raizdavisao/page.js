@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RaizDaVisaoPage() {
   return (
-    <div className="min-h-screen bg-stone-950 font-sans selection:bg-amber-900/30 selection:text-amber-100 flex flex-col">
+    <div className="min-h-screen overflow-hidden bg-stone-950 font-sans selection:bg-amber-900/30 selection:text-amber-100 flex flex-col">
       <Navbar pageTitle="Raiz da Visão" />
       <main className="flex-grow pt-[72px]">
         <HeroSection />
