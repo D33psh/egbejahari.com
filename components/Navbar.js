@@ -29,7 +29,7 @@ export default function Navbar({ pageTitle }) {
     { label: "Grupo Diamond", href: "/diamond" },
     { label: "Umbanda", href: "/umbanda" },
     { label: "Raiz da Visão", href: "/raizdavisao" },
-    { label: "Wurá Shop", href: "https://wa.me/c/199879909486627" },
+    { label: "Wurá Shop", href: "https://wa.me/c/5511930329758" },
   ];
 
   const projects = [
@@ -135,8 +135,8 @@ export default function Navbar({ pageTitle }) {
                     ))}
                     <div className="border-t border-stone-100 my-1"></div>
                     <a
-                      href="https://wa.me/c/199879909486627"
-                      onClick={(e) => { e.preventDefault(); handleNavClick("https://wa.me/c/199879909486627"); }}
+                      href="https://wa.me/c/5511930329758"
+                      onClick={(e) => { e.preventDefault(); handleNavClick("https://wa.me/c/5511930329758"); }}
                       className="block px-4 py-2 text-sm text-stone-600 hover:bg-amber-50 hover:text-amber-700 transition-colors"
                     >
                       Wurá Shop
