@@ -135,8 +135,8 @@ export default function Navbar({ pageTitle }) {
                     ))}
                     <div className="border-t border-stone-100 my-1"></div>
                     <a
-                      href="http://instagram.com/wurashopoficial"
-                      onClick={(e) => { e.preventDefault(); handleNavClick("http://instagram.com/wurashopoficial"); }}
+                      href="https://wa.me/c/199879909486627"
+                      onClick={(e) => { e.preventDefault(); handleNavClick("https://wa.me/c/199879909486627"); }}
                       className="block px-4 py-2 text-sm text-stone-600 hover:bg-amber-50 hover:text-amber-700 transition-colors"
                     >
                       Wurá Shop
